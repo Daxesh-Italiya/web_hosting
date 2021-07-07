@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="/fevicon.png" rel="icon">
+    <link href="/fevicon.png" rel="apple-touch-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSINESSVALA</title>
+    <link rel="stylesheet" href="/css/Home_style.css">
+    
+    
+</head>
+<body>
+    <section id="Header" class="Header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <h2 class=""><img src="/images/logo.png" width="50px" style="margin-block-end: -11px; margin-right:5px"> <span>BUSINESS</span>VALA</h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <form action="logout" class="ms-auto">
+                    <button class="btn btn-outline-success" type="submit">Log Out</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <main class="container mt-3 shadow-sm p-3 mb-5 bg-body rounded">
+        
+        <div class="card-box pd-20 height-100-p mb-30">
+				<div class="row align-items-center">
+					<div class="col-md-4">
+						<img src="/images/banner-img.png" alt="">
+					</div>
+					<div class="col-md-8">
+						<h4 class="text-capitalize mb-2">
+							Hey, <span class="text-blue" > {{#if NAME}}{{NAME}}{{/if}} </span>
+						</h4>
+
+                        <h2 > Welcome To <span class="form-title">Businessvala </span> </h2>
+						<p class="font-18 max-width-600"><span style="font-weight: 600">WE ARE THE LARGEST BUSINESS TEACHING PLATFORM</span> More than 2000+ business related posts , More than 500+ business related videos , More than 50+ courses related to business marketing , Over 50+ Case Studies of Different Company and Individual , We provide daily business news and job consultation.</p>
+					</div>
+				</div>
+			</div>
+    </main>
+
+    
+</body>
+</html>
