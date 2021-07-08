@@ -42,7 +42,7 @@ db.connect((error) => {
         console.log(error);
     }else
     {
-        console.log("Database Connected")
+        console.log("Database  Connected success");
     }
 })
 
